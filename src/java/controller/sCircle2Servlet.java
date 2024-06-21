@@ -87,6 +87,7 @@ public class sCircle2Servlet extends HttpServlet {
                 request.getRequestDispatcher("sCircle2.jsp").forward(request, response);
             } catch (NumberFormatException e) {
                 System.out.println(e);
+                System.out.println(e.getMessage());
             }
         }
     }
